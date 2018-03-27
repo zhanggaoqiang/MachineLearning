@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.authors            = { "张高强" => "835389423@qq.com" }
   s.platform     = :ios,"9.0"
   s.source       = { :git => "https://github.com/zhanggaoqiang/MachineLearning.git", :tag => s.version }
-  s.source_files  = 'MachineLearning/**/*.{h,m}'
+  s.source_files  = 'MachineLearning/MachineLearning/**'
   s.requires_arc = true
 end
